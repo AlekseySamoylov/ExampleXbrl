@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test name="xbrlapi-code-1243-trunk">
+        <classes>
+            <class name="org.xbrlapi.xlink.tests.ExtendedLinkTestCase"/>
+        </classes>
+    </test> <!-- xbrlapi-code-1243-trunk -->
+</suite> <!-- Default Suite -->

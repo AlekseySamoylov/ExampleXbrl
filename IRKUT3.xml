@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" 
+            xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" 
+            xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:xl="http://www.xbrl.org/2003/XLink" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" 
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="demo.xsd" />
+  <xbrli:context id="EndOfYear">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://rts.ru/IRKT">IRKT</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2007-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ForYear">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://rts.ru/IRKT">IRKT</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2007-01-01</xbrli:startDate>
+      <xbrli:endDate>2007-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="USD">
+    <xbrli:measure>iso4217:USD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="USDPerShare">
+    <xbrli:divide>
+      <xbrli:unitNumerator>
+        <xbrli:measure>iso4217:USD</xbrli:measure>
+      </xbrli:unitNumerator>
+      <xbrli:unitDenominator>
+        <xbrli:measure>xbrli:shares</xbrli:measure>
+      </xbrli:unitDenominator>
+    </xbrli:divide>
+  </xbrli:unit>
+  <ifrs:PropertyPlantAndEquipment contextRef="EndOfYear" unitRef="USD" decimals="2">318000000</ifrs:PropertyPlantAndEquipment>
+  <ifrs:InvestmentProperty contextRef="EndOfYear" unitRef="USD" decimals="2">21449000</ifrs:InvestmentProperty>
+  <ifrs:IntangibleAssetsOtherThanGoodwill contextRef="EndOfYear" unitRef="USD" decimals="2">171307000</ifrs:IntangibleAssetsOtherThanGoodwill>
+  <ifrs:DeferredTaxAssets contextRef="EndOfYear" unitRef="USD" decimals="2">3364000</ifrs:DeferredTaxAssets>
+  <ifrs:OtherNoncurrentFinancialAssets contextRef="EndOfYear" unitRef="USD" decimals="2">16264000</ifrs:OtherNoncurrentFinancialAssets>
+  <ifrs:NoncurrentAssets contextRef="EndOfYear" unitRef="USD" decimals="2">530384000</ifrs:NoncurrentAssets>
+  <ifrs:Inventories contextRef="EndOfYear" unitRef="USD" decimals="2">716246000</ifrs:Inventories>
+  <ifrs:OtherCurrentFinancialAssets contextRef="EndOfYear" unitRef="USD" decimals="2">288000</ifrs:OtherCurrentFinancialAssets>
+  <ifrs:CashAndCashEquivalents contextRef="EndOfYear" unitRef="USD" decimals="2">363783000</ifrs:CashAndCashEquivalents>
+  <ifrs:CurrentAssets contextRef="EndOfYear" unitRef="USD" decimals="2">1344584000</ifrs:CurrentAssets>
+  <ifrs:TradeAndOtherCurrentReceivables contextRef="EndOfYear" unitRef="USD" decimals="2">264267000</ifrs:TradeAndOtherCurrentReceivables>
+  <ifrs:Assets contextRef="EndOfYear" unitRef="USD" decimals="2">1874968000</ifrs:Assets>
+  <ifrs:IssuedCapital contextRef="EndOfYear" unitRef="USD" decimals="2">103811000</ifrs:IssuedCapital>
+  <ifrs:RetainedEarnings contextRef="EndOfYear" unitRef="USD" decimals="2">184971000</ifrs:RetainedEarnings>
+  <ifrs:SharePremium contextRef="EndOfYear" unitRef="USD" decimals="2">97532000</ifrs:SharePremium>
+  <ifrs:OtherReserves contextRef="EndOfYear" unitRef="USD" decimals="2">30425000</ifrs:OtherReserves>
+  <ifrs:Equity contextRef="EndOfYear" unitRef="USD" decimals="2">449905000</ifrs:Equity>
+  <ifrs:EquityAttributableToOwnersOfParent contextRef="EndOfYear" unitRef="USD" decimals="2">416739000</ifrs:EquityAttributableToOwnersOfParent>
+  <ifrs:NoncontrollingInterests contextRef="EndOfYear" unitRef="USD" decimals="2">33166000</ifrs:NoncontrollingInterests>
+  <ifrs:DeferredTaxLiabilities contextRef="EndOfYear" unitRef="USD" decimals="2">49859</ifrs:DeferredTaxLiabilities>
+  <ifrs:OtherNoncurrentFinancialLiabilities contextRef="EndOfYear" unitRef="USD" decimals="2">314036</ifrs:OtherNoncurrentFinancialLiabilities>
+  <ifrs:NoncurrentLiabilities contextRef="EndOfYear" unitRef="USD" decimals="2">730813</ifrs:NoncurrentLiabilities>
+  <ifrs:OtherShorttermProvisions contextRef="EndOfYear" unitRef="USD" decimals="2">13197</ifrs:OtherShorttermProvisions>
+  <ifrs:OtherCurrentFinancialLiabilities contextRef="EndOfYear" unitRef="USD" decimals="2">314036</ifrs:OtherCurrentFinancialLiabilities>
+  <ifrs:OtherCurrentNonfinancialLiabilities contextRef="EndOfYear" unitRef="USD" decimals="2">363154</ifrs:OtherCurrentNonfinancialLiabilities>
+  <ifrs:CurrentLiabilities contextRef="EndOfYear" unitRef="USD" decimals="2">694250</ifrs:CurrentLiabilities>
+  <ifrs:TradeAndOtherCurrentPayables contextRef="EndOfYear" unitRef="USD" decimals="2">363154</ifrs:TradeAndOtherCurrentPayables>
+  <ifrs:Liabilities contextRef="EndOfYear" unitRef="USD" decimals="2">1425063</ifrs:Liabilities>
+  <ifrs:EquityAndLiabilities contextRef="EndOfYear" unitRef="USD" decimals="2">1874968</ifrs:EquityAndLiabilities>
+</xbrli:xbrl>

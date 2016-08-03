@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema targetNamespace="http://www.test.com/ifrs2009" elementFormDefault="qualified" 
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:d="http://www.test.com/ifrs2009" 
+            xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" 
+            xmlns:rol_ias_7_2009-04-01="http://xbrl.iasb.org/role/ifrs/rol_ias_7_2009-04-01" 
+            xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/roles" xmlns:xl="http://www.xbrl.org/2003/XLink" 
+            xmlns:xbrli="http://www.xbrl.org/2003/instance" 
+            xmlns:rol_ias_1_2009-04-01="http://xbrl.iasb.org/role/ifrs/rol_ias_1_2009-04-01" 
+            xmlns:info="http://xbrl.iasb.org/info" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/pre_ias_1_2009-04-01_role-110000.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/pre_ias_1_2009-04-01_role-210000.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/pre_ias_1_2009-04-01_role-220000.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/pre_ias_1_2009-04-01_role-310000.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/pre_ias_1_2009-04-01_role-320000.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/pre_ias_1_2009-04-01_role-410000.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/pre_ias_1_2009-04-01_role-420000.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/pre_ias_1_2009-04-01_role-610000.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/pre_ias_1_2009-04-01_role-620000.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_7_2009-04-01/pre_ias_7_2009-04-01_role-510000.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_7_2009-04-01/pre_ias_7_2009-04-01_role-520000.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+ 	<!--Обратите внимание на адрес приведенной ниже ссылки, это ссылка на вычислительные связи таксономии IFRS. В следующем файле представлен файл вычислительных связей таксономии IFRS, на который указывает эта ссылка. -->
+	  <link:linkbaseRef xlink:type="simple" xlink:href=  "ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/cal_ias_1_2009-04-01_role-210000.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/cal_ias_1_2009-04-01_role-220000.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/cal_ias_1_2009-04-01_role-310000.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/cal_ias_1_2009-04-01_role-320000.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/cal_ias_1_2009-04-01_role-410000.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/cal_ias_1_2009-04-01_role-420000.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/cal_ias_1_2009-04-01_role-610000.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/cal_ias_1_2009-04-01_role-620000.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_7_2009-04-01/cal_ias_7_2009-04-01_role-510000.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_7_2009-04-01/cal_ias_7_2009-04-01_role-520000.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_20090401/ifrs_2009-04-01/ifrs/label/lab_ifrs-en_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <xsd:import namespace="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" schemaLocation="ifrs_20090401/ifrs_2009-04-01/ifrs-cor_2009-04-01.xsd" />
+  <xsd:import namespace="http://xbrl.iasb.org/role/ifrs/rol_ias_1_2009-04-01" schemaLocation="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_1_2009-04-01/rol_ias_1_2009-04-01.xsd" />
+  <xsd:import namespace="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/roles" schemaLocation="ifrs_20090401/ifrs_2009-04-01/ifrs-roles_2009-04-01.xsd" />
+  <xsd:import namespace="http://xbrl.iasb.org/role/ifrs/rol_ias_7_2009-04-01" schemaLocation="ifrs_20090401/ifrs_2009-04-01/ifrs/ias_7_2009-04-01/rol_ias_7_2009-04-01.xsd" />
+</xsd:schema>
